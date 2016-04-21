@@ -6,7 +6,7 @@ let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
 " close NERDTree after a file is opened
-let g:NERDTreeQuitOnOpen=0
+let g:NERDTreeQuitOnOpen=1
 
 " show hidden files in NERDTree
 let NERDTreeShowHidden=1
@@ -15,7 +15,9 @@ let NERDTreeShowHidden=1
 let NERDTreeIgnore = ['\.js.map$']
 
 " Toggle NERDTree
-nmap <silent> <leader>l :NERDTreeToggle<cr>
+nmap <silent> <leader>k :NERDTreeToggle<cr>
 
 " expand to the path of the file in the current buffer
 nmap <silent> <leader>p :NERDTreeFind<cr>
+
+let g:NERDTreeWinSize=45

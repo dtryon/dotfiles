@@ -63,3 +63,11 @@ inoremap jk <esc>
 " Quick session bindings.
 nnoremap <silent> <leader>sw :mksession! .quicksave.vim<CR>:echo "Session saved."<CR>
 nnoremap <silent> <leader>sr :source .quicksave.vim<CR>:echo "Session loaded."<CR>
+
+" Buffer nav
+nnoremap <silent> <leader>a :bprev<CR>
+nnoremap <silent> <leader>s :bnext<CR>
+nnoremap <silent> <leader>d :bd<CR>
+
+" Easy save
+nnoremap <silent> <leader>w :w<CR>

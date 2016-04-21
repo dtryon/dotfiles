@@ -32,3 +32,9 @@ set sessionoptions=blank,curdir,folds,help,tabpages,winsize
 
 " Clipboard
 set clipboard=unnamed
+
+"This unsets the "last search pattern" register by hitting return
+nnoremap <CR> :noh<CR><CR>
+
+"Turn word wrap off
+set nowrap
