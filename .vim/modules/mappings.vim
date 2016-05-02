@@ -70,4 +70,4 @@ nnoremap <silent> <leader>s :bnext<CR>
 nnoremap <silent> <leader>d :bd<CR>
 
 " Easy save
-nnoremap <silent> <leader>w :w<CR>
+nnoremap <silent> <leader>ww :w<CR>
