@@ -18,7 +18,7 @@ brew install reattach-to-user-namespace
 brew install tmux
 brew install zsh
 brew install highlight
-brew install nvm
+brew install n -g
 brew install markdown
 
 # docker
