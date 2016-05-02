@@ -13,7 +13,10 @@ set splitbelow
 set splitright
 
 " Set tabs to 4 spaces
-set tabstop=800 expandtab shiftwidth=4 smarttab
+set tabstop=800 
+set expandtab 
+set shiftwidth=4 
+set smarttab
 
 " Enable mouse. Great for resizing windows and keeping co-workers sane.
 set mouse=a
