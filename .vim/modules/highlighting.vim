@@ -52,3 +52,6 @@ augroup after_colorscheme
   autocmd!
   autocmd ColorScheme * call s:after_colorscheme()
 augroup END
+
+" au BufNewFile,BufRead *.ejs set filetype=js
+" au BufNewFile,BufRead *.ejs set filetype=html
