@@ -16,8 +16,8 @@ brew cask install hipchat
 brew install nginx
 
 # development tools
-brew install git
-brew install macvim --override-system-vim
+brew cask install macvim --override-system-vim
+brew install git  #probably need this to be installed already :)
 brew install reattach-to-user-namespace
 brew install tmux
 brew install zsh
