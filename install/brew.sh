@@ -8,11 +8,14 @@ fi
 echo -e "\n\nInstalling homebrew packages..."
 echo "=============================="
 
+# apps
+brew cask install iterm2
+brew cask install hipchat
+
 # web server
 brew install nginx
 
 # development tools
-brew cask install iterm2
 brew install git
 brew install macvim --override-system-vim
 brew install reattach-to-user-namespace
