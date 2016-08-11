@@ -10,6 +10,8 @@ if [ "$(uname)" == "Darwin" ]; then
     source install/osx.sh
 
     source install/n.sh
+    
+    source install/shell.sh
 fi
 
 echo "creating vim directories"
