@@ -17,8 +17,14 @@ fi
 echo "creating vim directories"
 mkdir -p ~/.vim-tmp
 
+echo "copy dotfiles"
+cp -R .tmux ~/.tmux
+cp .tmux.conf ~/.tmux.conf
 
-echo "Configuring zsh as default shell"
-chsh -s $(which zsh)
+cp -R .vim ~/.vim
+cp .vimrc ~/.vimrc
+
+cp .emacs ~/.emacs
+
 
 echo "Done."
