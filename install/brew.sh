@@ -38,5 +38,6 @@ brew install planck
 # tools
 brew install sipcalc
 brew install wget
+brew install curl
 
 exit 0
