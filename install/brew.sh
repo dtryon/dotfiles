@@ -40,5 +40,6 @@ brew install planck
 brew install sipcalc
 brew install wget
 brew install curl
+brew install watch
 
 exit 0
