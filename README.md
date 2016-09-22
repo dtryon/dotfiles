@@ -25,7 +25,7 @@ git config --global core.editor "vim"
 git config --global color.ui true
 ```
 
-# Setup tern for vim
+# Setup tern for vim (after initial :PlugInstall in vim)
 
 ## Compile YouCompleteMe
 
