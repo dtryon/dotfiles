@@ -26,5 +26,7 @@ cp .vimrc ~/.vimrc
 
 cp .emacs ~/.emacs
 
+cp .tern-config ~/.tern-config
+
 
 echo "Done."
