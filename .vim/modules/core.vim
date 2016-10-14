@@ -13,9 +13,9 @@ set splitbelow
 set splitright
 
 " Set tabs to 4 spaces
-set tabstop=800 
-set expandtab 
-set shiftwidth=4 
+set tabstop=4
+set expandtab
+set shiftwidth=4
 set smarttab
 
 " Enable mouse. Great for resizing windows and keeping co-workers sane.
@@ -41,3 +41,7 @@ nnoremap <CR> :noh<CR><CR>
 
 "Turn word wrap off
 set nowrap
+
+" Swap the word the cursor is on with the next word (which can be on a
+" newline, and punctuation is "skipped"):
+nmap <silent> gw "_yiw:s/\(\%#\w\+\)\(\_W\+\)\(\w\+\)/\3\2\1/<CR><C-o>:noh<CR>

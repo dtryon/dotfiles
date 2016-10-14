@@ -21,6 +21,7 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'PeterRincker/vim-argumentative'
 Plug 'Raimondi/delimitMate'
 Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 Plug 'Valloric/YouCompleteMe'
 Plug 'Wolfy87/vim-enmasse'
 Plug 'Wolfy87/vim-expand'
@@ -70,6 +71,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-vinegar'
 Plug 'walm/jshint.vim'
+Plug 'lambdatoast/elm.vim'
 
 " Add plugins to &runtimepath
 call plug#end()
