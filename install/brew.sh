@@ -41,5 +41,6 @@ brew install sipcalc
 brew install wget
 brew install curl
 brew install watch
+brew install mas
 
 exit 0
