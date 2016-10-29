@@ -3,6 +3,7 @@
 # Prereqs
 
 install full xcode
+
 install git (in order to clone this repo)
 
 # Setup git
