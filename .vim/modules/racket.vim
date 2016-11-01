@@ -1,6 +1,15 @@
 " treat rkt files as scheme
 if has("autocmd")
-  au BufReadPost *.rkt,*.rktl set filetype=scheme
+  "au BufReadPost *.rkt,*.rktl set filetype=scheme
+  au BufReadPost *.rkt,*.rktl set filetype=racket
+  au filetype racket set lisp
+  au filetype racket set autoindent
+
+  " rainbow parens
+  au VimEnter * RainbowParenthesesToggle
+  au Syntax * RainbowParenthesesLoadRound
+  au Syntax * RainbowParenthesesLoadSquare
+  au Syntax * RainbowParenthesesLoadBraces
 endif
 
 " send file to repl
@@ -33,7 +42,5 @@ function! VimuxLein()
   call VimuxSendKeys("Enter")
 endfunction
 nnoremap <silent> <leader>rl :call VimuxLein()<CR>
-
-let g:lisp_rainbow=1
 
 set expandtab

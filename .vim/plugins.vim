@@ -72,6 +72,8 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-vinegar'
 Plug 'walm/jshint.vim'
 Plug 'lambdatoast/elm.vim'
+Plug 'wlangstroth/vim-racket'
+Plug 'kien/rainbow_parentheses.vim'
 
 " Add plugins to &runtimepath
 call plug#end()
