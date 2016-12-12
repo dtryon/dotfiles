@@ -38,6 +38,7 @@ brew install planck
 
 # tools
 brew install sipcalc
+brew install p7zip
 brew install wget
 brew install curl
 brew install watch
