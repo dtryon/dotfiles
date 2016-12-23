@@ -41,6 +41,7 @@ Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'mhinz/vim-signify'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'pangloss/vim-javascript'
+Plug 'maksimr/vim-jsbeautify'
 Plug 'raymond-w-ko/vim-niji'
 Plug 'rking/ag.vim'
 Plug 'scrooloose/syntastic'
