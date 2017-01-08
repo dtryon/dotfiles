@@ -45,3 +45,14 @@ set nowrap
 " Swap the word the cursor is on with the next word (which can be on a
 " newline, and punctuation is "skipped"):
 nmap <silent> gw "_yiw:s/\(\%#\w\+\)\(\_W\+\)\(\w\+\)/\3\2\1/<CR><C-o>:noh<CR>
+
+" setup some file types
+if has("autocmd")
+  au BufReadPost *.rkt,*.rktl set filetype=racket
+  au filetype racket set lisp
+  au filetype racket set autoindent
+
+  au BufReadPost *.clj,*.cljs,*.cljc,*.edn set filetype=clojure
+endif
+
+let g:rainbow_active = 1
