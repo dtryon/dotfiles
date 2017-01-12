@@ -8,6 +8,9 @@ fi
 echo -e "\n\nInstalling homebrew packages..."
 echo "=============================="
 
+# sdks
+brew cask install java
+
 # apps
 brew cask install iterm2
 brew cask install hipchat
