@@ -28,6 +28,7 @@ brew install highlight
 brew install n -g
 brew install markdown
 brew install cmake
+brew install tree
 
 # docker
 brew install docker
