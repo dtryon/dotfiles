@@ -57,6 +57,7 @@ Plug 'nikvdp/ejs-syntax'
 Plug 'walm/jshint.vim'
 
 Plug 'tpope/vim-fireplace'
+Plug 'vim-scripts/paredit.vim'
 
 Plug 'lambdatoast/elm.vim'
 Plug 'wlangstroth/vim-racket'
