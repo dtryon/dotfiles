@@ -39,6 +39,7 @@ brew install docker-compose
 brew install fig
 brew install leiningen
 brew install planck
+brew install rlwrap
 
 # tools
 brew install sipcalc
