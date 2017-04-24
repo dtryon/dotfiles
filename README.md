@@ -40,7 +40,7 @@ cd ~/.vim/plugged/YouCompleteMe
 ## Install tern_for_vim deps
 
 ```sh
-~/.vim/plugged/term_for_vim && npm i
+~/.vim/plugged/tern_for_vim && npm i
 ```
 
 
