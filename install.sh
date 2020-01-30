@@ -10,7 +10,17 @@ if [ "$(uname)" == "Darwin" ]; then
     source install/osx.sh
 
     source install/n.sh
-    
+
+    source install/shell.sh
+fi
+
+if [ "$(uname)" == "Linux" ]; then
+    echo "\n\nRunning on Linux (assuming Debian)"
+
+    source install/apt.sh
+
+    source install/n.sh
+
     source install/shell.sh
 fi
 
